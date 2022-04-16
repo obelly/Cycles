@@ -474,6 +474,7 @@ public class Main {
         System.out.print("\n" + (int) (b/(Math.pow(10, (length - k))) %10));
 
         }//Дано натуральное k. Напечатать k-ю цифру последовательности, в которой выписаны подряд все числа Фибоначчи.
+//fghfgjkgdrfhjktrdfghj
 }
 
 
