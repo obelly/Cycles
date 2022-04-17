@@ -131,22 +131,6 @@ public class Main {
         int a = scanner.nextInt();
         int div = a;
         int i;
-        /* for (int i = a/2; i!=1; i/=2) {
-            if ((Math.pow(N, 3))>a){
-                N -= i;
-            }
-            else {
-                N += i;
-            }
-        }
-        System.out.println("число N: " + N);
-        if (N > 1){
-            System.out.println("число N: " + N);
-        }
-        else {
-            System.out.println("Куб целого числа не целое число");
-        }*/
-
         while (a < (Math.pow(div, 3))) {
             if (a == (Math.pow(div, 3))) {
                 System.out.print("число N: " + div);
@@ -474,7 +458,7 @@ public class Main {
         System.out.print("\n" + (int) (b/(Math.pow(10, (length - k))) %10));
 
         }//Дано натуральное k. Напечатать k-ю цифру последовательности, в которой выписаны подряд все числа Фибоначчи.
-//fghfgjkgdrfhjktrdfghj
+
 }
 
 
